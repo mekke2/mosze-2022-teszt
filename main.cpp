@@ -5,8 +5,8 @@ constexpr int N_ELEMENTS = 100;
 int main()
 {
     int *b = new int[NELEMENTS];
-    std::cout << '1-100 ertekek duplazasa'
-    for (int i = 0;)
+    std::cout << '1-100 ertekek duplazasa' >>   /// nincs >> ///
+    for (int i = 0);       ////rossz helyen van a ;///
     {
         b[i] = i * 2;
     }
